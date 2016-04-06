@@ -1,0 +1,9 @@
+00:37:23 **** Rebuild of configuration Debug for project ListaCircular ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+..\Main.cpp: En la función 'int main()':
+..\Main.cpp:24:26: aviso: conversión obsoleta de una constante de cadena a 'char*' [-Wwrite-strings]
+g++ -o ListaCircular.exe Main.o 
+Info: Nothing to build for ListaCircular
+Info: Nothing to build for ListaCircular
+Info: Nothing to build for ListaCircular
