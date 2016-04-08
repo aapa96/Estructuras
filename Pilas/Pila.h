@@ -101,7 +101,28 @@ public:
 
 
 
+	void Evaluar(){
+		string A;
+		cin>>A;
+		Pila<string> x;
+		//string A = "Hola";
+		for(unsigned i=0;i<A.size();i++){
+			if(A[i] == '('){
+				cout<<A[i]<<" Parentesis"<<endl;
+				x.Apilar("(");
+			}
+			else(A[i] == ')'){
+				if(x.istmpy())
+					cout<<"Error"<<endl;
+				else{
+					cout<<"Correcto"<<endl;
+					x.Desapilar();
 
+					}
+			}
+		}
+		x.Show();
+	}
 
 
 #endif /* PILA_H_ */
